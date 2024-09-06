@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EolympProblems", "EolympProblems\EolympProblems.csproj", "{CE3006BA-760F-42AF-8E6E-90F5AD075ADD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE3006BA-760F-42AF-8E6E-90F5AD075ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE3006BA-760F-42AF-8E6E-90F5AD075ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE3006BA-760F-42AF-8E6E-90F5AD075ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE3006BA-760F-42AF-8E6E-90F5AD075ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {177AC3C0-1614-4DC5-9E8A-D9B6F8EA13FB}
+	EndGlobalSection
+EndGlobal
