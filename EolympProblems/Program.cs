@@ -14,7 +14,7 @@ namespace EolympProblems
             Sade mesele
 
 
-                                      int n = int.Parse(Console.ReadLine());
+                                                  int n = int.Parse(Console.ReadLine());
             int a = n % 10;
             int b = n / 10;
             Console.WriteLine(a + " " + b);
@@ -24,7 +24,7 @@ namespace EolympProblems
            Anfisa
 
 
-                                      string[] st = Console.ReadLine().Split(' ');
+                                                  string[] st = Console.ReadLine().Split(' ');
             int x = int.Parse(st[0]);
             int y = int.Parse(st[1]);
             int result = (x - 1) * (y - 1) + 1;
@@ -35,7 +35,7 @@ namespace EolympProblems
            Tort
 
 
-                                      string[] st = Console.ReadLine().Split(' ');
+                                                  string[] st = Console.ReadLine().Split(' ');
             double t1 = double.Parse(st[0]);
             double t2 = double.Parse(st[1]);
             double t3 = double.Parse(st[2]);
@@ -47,7 +47,7 @@ namespace EolympProblems
            Merkezi Istilik Sistemi
 
 
-                                      string[] st = Console.ReadLine().Split(' ');
+                                                  string[] st = Console.ReadLine().Split(' ');
             int h = int.Parse(st[0]);
             int w = int.Parse(st[1]);
             int l = int.Parse(st[2]);
@@ -64,7 +64,7 @@ namespace EolympProblems
            Genc Bagban
 
 
-                                      int n = int.Parse(Console.ReadLine());
+                                                  int n = int.Parse(Console.ReadLine());
             Console.WriteLine(n * (n + 1) + 1);
 
             ------------------------------------------------------------------------------------
@@ -72,7 +72,7 @@ namespace EolympProblems
            Kvadratlarin Cemi
 
 
-                                      string[] st = Console.ReadLine().Split(' ');
+                                                  string[] st = Console.ReadLine().Split(' ');
             int x = int.Parse(st[0]);
             int y = int.Parse(st[1]);
             Console.WriteLine(x * x + y * y);
@@ -82,7 +82,7 @@ namespace EolympProblems
             Reqemlerin hasili
 
 
-                                      int n = int.Parse(Console.ReadLine());
+                                                  int n = int.Parse(Console.ReadLine());
             int a = n % 10;
             int b = n / 10 % 10;
             int c = n / 100 % 10;
@@ -93,7 +93,7 @@ namespace EolympProblems
             Cemin kvadrati
 
 
-                                      int n = int.Parse(Console.ReadLine());
+                                                  int n = int.Parse(Console.ReadLine());
             int a = n % 10;
             int b = n / 10;
             Console.WriteLine((a + b) * (a + b));
@@ -103,7 +103,7 @@ namespace EolympProblems
            Qefesdeki Dovsanlar
 
 
-                                     string[] s = Console.ReadLine().Split(' ');
+                                                 string[] s = Console.ReadLine().Split(' ');
             int x = int.Parse(s[0]);
             int y = int.Parse(s[1]);
             int z = y / x;
@@ -118,7 +118,7 @@ namespace EolympProblems
            Zanbaqli Gol
 
 
-                                     int n = int.Parse(Console.ReadLine());
+                                                 int n = int.Parse(Console.ReadLine());
             Console.WriteLine(n - 1);
 
             -------------------------------------------------------------------------------------
@@ -126,7 +126,7 @@ namespace EolympProblems
            Intervaldaki Tam ededlerin cemi
 
 
-                                     string[] st = Console.ReadLine().Split(' ');
+                                                 string[] st = Console.ReadLine().Split(' ');
             int a = int.Parse(st[0]);
             int b = int.Parse(st[1]);
             int sum = 0;
@@ -141,7 +141,7 @@ namespace EolympProblems
            Sevimli Filler
 
 
-                                     int n = int.Parse(Console.ReadLine());
+                                                 int n = int.Parse(Console.ReadLine());
             Console.WriteLine(n);
 
             -------------------------------------------------------------------------------------
@@ -149,7 +149,7 @@ namespace EolympProblems
            Almalari bolusdurme - 1
 
 
-                                     string[] s = Console.ReadLine().Split(' ');
+                                                 string[] s = Console.ReadLine().Split(' ');
             int n = int.Parse(s[0]);
             string[] st = Console.ReadLine().Split(' ');
             int k = int.Parse(st[0]);
@@ -161,7 +161,7 @@ namespace EolympProblems
            Almalari bolusdurme - 2
 
 
-                                     string[] s = Console.ReadLine().Split(' ');
+                                                 string[] s = Console.ReadLine().Split(' ');
             int n = int.Parse(s[0]);
             string[] st = Console.ReadLine().Split(' ');
             int k = int.Parse(st[0]);
@@ -173,7 +173,7 @@ namespace EolympProblems
            abc
 
 
-                                     Console.WriteLine("a");
+                                                 Console.WriteLine("a");
             Console.WriteLine("bb");
             Console.WriteLine("ccc");
 
@@ -182,7 +182,7 @@ namespace EolympProblems
            Sonuncu reqem
 
 
-                                     int n = int.Parse(Console.ReadLine());
+                                                 int n = int.Parse(Console.ReadLine());
             Console.WriteLine(n % 10);
 
             -------------------------------------------------------------------------------------
@@ -190,7 +190,7 @@ namespace EolympProblems
            Saribulbuller
 
 
-                                     string[] st = Console.ReadLine().Split(' ');
+                                                 string[] st = Console.ReadLine().Split(' ');
             int n = int.Parse(st[0]);
             int k = int.Parse(st[1]); ??????
 
@@ -199,7 +199,7 @@ namespace EolympProblems
             Su alma
 
 
-                                     int n = int.Parse(Console.ReadLine());
+                                                 int n = int.Parse(Console.ReadLine());
             int say = 0;
             int alinanSu = n * 100 / 120;
             int qaliqPul = n % 120;
@@ -214,7 +214,7 @@ namespace EolympProblems
            Stepanin dostlari
 
 
-                                     int n = int.Parse(Console.ReadLine());
+                                                 int n = int.Parse(Console.ReadLine());
             Console.WriteLine(n - 1);
 
             -------------------------------------------------------------------------------------
@@ -222,7 +222,7 @@ namespace EolympProblems
            Ekskursiya
 
 
-                                     string[] st = Console.ReadLine().Split(' ');
+                                                 string[] st = Console.ReadLine().Split(' ');
             int o = int.Parse(st[0]);
             int q = int.Parse(st[1]);
             int y = int.Parse(st[2]);
@@ -233,7 +233,7 @@ namespace EolympProblems
             Iki qatar
 
 
-                                    string[] st = Console.ReadLine().Split(' ');
+                                                string[] st = Console.ReadLine().Split(' ');
             int t = int.Parse(st[0]);
             int t1 = int.Parse(st[1]);
             int vaxt = t * t * 60 / t1;
@@ -245,7 +245,7 @@ namespace EolympProblems
 
 Olimpiada
 
-                        string[] s = Console.ReadLine().Split(' ');
+                                    string[] s = Console.ReadLine().Split(' ');
             int h1 = int.Parse(s[0]);
             int m1 = int.Parse(s[1]);
             int s1 = int.Parse(s[2]);
@@ -267,7 +267,7 @@ Olimpiada
 
 Turist
 
-                        string[] s = Console.ReadLine().Split(' ');
+                                    string[] s = Console.ReadLine().Split(' ');
             int k = int.Parse(s[0]);
             int w = int.Parse(s[1]);
 
@@ -295,7 +295,7 @@ Turist
 Deyisdirme
 
 
-                        int n = int.Parse(Console.ReadLine());
+                                    int n = int.Parse(Console.ReadLine());
             for (int i = 0; i < n; i++)
             {
                 string[] st = Console.ReadLine().Split(' ');
@@ -332,7 +332,7 @@ Deyisdirme
 
 Ag kubikler
 
-                        string[] st = Console.ReadLine().Split(' ');
+                                    string[] st = Console.ReadLine().Split(' ');
             int a = int.Parse(st[0]);
             int b = int.Parse(st[1]);
             int c = int.Parse(st[2]);
@@ -345,7 +345,7 @@ Ag kubikler
 
 Temir
 
-                        int n = int.Parse(Console.ReadLine());
+                                    int n = int.Parse(Console.ReadLine());
             for (int i = 0; i < n; i++)
             {
                 string[] st1 = Console.ReadLine().Split(' ');
@@ -366,7 +366,7 @@ Temir
 
   Birinci yoxsa axirinci
 
-                        int n = int.Parse(Console.ReadLine());
+                                    int n = int.Parse(Console.ReadLine());
             int a = n / 100;
             int b = n % 100 / 10;
             int c = n % 10;
@@ -392,7 +392,7 @@ Kvadrat tenlik
 
 Ilin fesilleri
 
-                        int n = int.Parse(Console.ReadLine());
+                                    int n = int.Parse(Console.ReadLine());
             if (n == 1)
             {
                 Console.WriteLine("Spring");
@@ -432,7 +432,7 @@ Ilin fesilleri
 
 Dolab
 
-                        string[] st = Console.ReadLine().Split(' ');
+                                    string[] st = Console.ReadLine().Split(' ');
             int a = int.Parse(st[0]);
             int b = int.Parse(st[1]);
             int c = int.Parse(st[2]);
@@ -457,7 +457,7 @@ Dolab
             -------------------------------------------------------------------------------------
 
 Qefesdeki dovsanlar
-            string[] st = Console.ReadLine().Split(' ');
+                        string[] st = Console.ReadLine().Split(' ');
             int a = int.Parse(st[0]);
             int b = int.Parse(st[1]);
             int qaliq = b % a;
@@ -488,7 +488,7 @@ Qefesdeki dovsanlar
             -------------------------------------------------------------------------------------
 
 Cut ve tek ededler
-            string[] st = Console.ReadLine().Split(' ');
+                        string[] st = Console.ReadLine().Split(' ');
             int a = int.Parse(st[0]);
             int b = int.Parse(st[1]);
             int c = int.Parse(st[2]);
@@ -504,7 +504,7 @@ Cut ve tek ededler
 Tek ededlerin cemi
 
 
-            string[] st = Console.ReadLine().Split();
+                        string[] st = Console.ReadLine().Split();
             long a = long.Parse(st[0]);
             long b = long.Parse(st[1]);
 
@@ -534,7 +534,7 @@ Tek ededlerin cemi
             -------------------------------------------------------------------------------------
 
 Tenbel misa
-            string[] st = Console.ReadLine().Split(' ');
+                        string[] st = Console.ReadLine().Split(' ');
             int t1 = int.Parse(st[0]);
             int t2 = int.Parse(st[1]);
             int t3 = int.Parse(st[2]);
@@ -546,14 +546,14 @@ Tenbel misa
 
 Saribulbuller
 
-                        string[] st = Console.ReadLine().Split(' ');
+                                    string[] st = Console.ReadLine().Split(' ');
             int n = int.Parse(st[0]);
             int k = int.Parse(st[1]); ??????
                     -------------------------------------------------------------------------------------
 
 
         Ekskursiyaya getme
-            string[] st = Console.ReadLine().Split(' ');
+                        string[] st = Console.ReadLine().Split(' ');
             int o = int.Parse(st[0]);
             int q = int.Parse(st[1]);
             int y = int.Parse(st[2]);
@@ -565,45 +565,224 @@ Saribulbuller
 
 Musbet,menfi,sifir
 
-            int n = int.Parse(Console.ReadLine());
+                        int n = int.Parse(Console.ReadLine());
             string result = (n > 0) ? "Positive" : (n < 0) ? "Negative" : "Zero";
             Console.WriteLine(result);
 
             ------------------------------------------------------------------------------------------------------------
             Sert operatoru - 1
+            int x = int.Parse(Console.ReadLine());
+            if (x < 5)
+            {
+                int y = x * x - 3 * x + 4;
+                Console.WriteLine(y);
+            }
+            else if (x >= 5)
+            {
+                int y = x + 7;
+                Console.WriteLine(y);
+            }
+
 
             ------------------------------------------------------------------------------------------------------------
-            Sert operatoru-2
+            Sert operatoru - 2
+            long x = long.Parse(Console.ReadLine());
+            long y;
+            if (x >= 10)
+            {
+                y = x * x * x + 5 * x;
+                Console.WriteLine(y);
+            }
+            else if (x < 10)
+            {
+                y = x * x - 2 * x + 4;
+                Console.WriteLine(y);
+            }
+
+
             ------------------------------------------------------------------------------------------------------------
-            Sert operatoru-3
+            Sert operatoru - 3
+            int x = int.Parse(Console.ReadLine());
+            int y;
+            if (x < -4)
+            {
+                y = x + 5;
+                Console.WriteLine(y);
+            }
+            else if (x >= -4 && x <= 7)
+            {
+                y = x * x - 3 * x;
+                Console.WriteLine(y);
+            }
+            else if (x > 7)
+            {
+                y = x * x * x + 2 * x;
+                Console.WriteLine(y);
+            }
+
+
             ------------------------------------------------------------------------------------------------------------
-            Sert operatoru-4
+            Sert operatoru - 4
+            long x = long.Parse(Console.ReadLine());
+            long y;
+            if (x >= 0)
+            {
+                y = x * x * x + 2 * x * x + 4 * x - 6;
+                Console.WriteLine(y);
+            }
+            else if (x < 0)
+            {
+                y = x * x * x - 7 * x;
+                Console.WriteLine(y);
+            }
+
+
             ------------------------------------------------------------------------------------------------------------
-            Sert operatoru-5
+            Sert operatoru - 5
+
+            long x = long.Parse(Console.ReadLine());
+            long y;
+            if (x >= 13)
+            {
+                y = 3 * x * x * x + 4 * x * x + 5 * x + 6;
+                Console.WriteLine(y);
+            }
+            else if (x < 13)
+            {
+                y = 3 * x * x * x - 2 * x * x - 3 * x - 4;
+                Console.WriteLine(y);
+            }
+
+
             ------------------------------------------------------------------------------------------------------------
             Cut ve ya tek
+            long n = long.Parse(Console.ReadLine());
+            if (n % 2 == 0) { Console.WriteLine("EVEN"); }
+            else { Console.WriteLine("ODD"); }
+
+
             ------------------------------------------------------------------------------------------------------------
             Bolunme
+            string[] st = Console.ReadLine().Split(' ');
+            int a = int.Parse(st[0]);
+            int b = int.Parse(st[1]);
+            int tam = b / a;
+            int qaliq = b % a;
+            if (qaliq == 0) { Console.WriteLine("Divisible"); }
+            else { Console.WriteLine(b + " " + a); }
+
+
             ------------------------------------------------------------------------------------------------------------
-            Edede bolme
+
+     Edede bolme
+            string[] st = Console.ReadLine().Split(' ');
+            long n = long.Parse(st[0]);
+            long a = long.Parse(st[1]);
+            long b = long.Parse(st[2]);
+            long q1 = n % a;
+            long q2 = n % b;
+            if (q1 == 0 && q2 == 0) { Console.WriteLine("YES"); }
+            else { Console.WriteLine("NO"); }
+
+
+
             ------------------------------------------------------------------------------------------------------------
             Ucreqemli ededin ededlere bolunmesi
+              int n = int.Parse(Console.ReadLine());
+            int a = n / 100;
+            int b = n % 100 / 10;
+            int c = n % 10;
+            if (n > 0)
+            {
+                Console.WriteLine(a + "\n" + b + "\n" + c);
+            }
+            else if (n < 0)
+            {
+                int d = 0 - n;
+                int a1 = d / 100;
+                int b1 = d % 100 / 10;
+                int c1 = d % 10;
+                Console.WriteLine(a1 + "\n" + b1 + "\n" + c1);
+            }
+
+
             ------------------------------------------------------------------------------------------------------------
             Binalarin nomresi
+            string[] st = Console.ReadLine().Split(' ');
+            int a = int.Parse(st[0]);
+            int b = int.Parse(st[1]);
+            if ((a % 2 == 0 && b % 2 == 0) || (a % 2 != 0 && b % 2 != 0))
+            {
+                Console.WriteLine(1);
+            }
+            else { Console.WriteLine(0); }
+
+
             ------------------------------------------------------------------------------------------------------------
             Minimum ve maksimum
+            string[] st = Console.ReadLine().Split(' ');
+            int a = int.Parse(st[0]);
+            int b = int.Parse(st[1]);
+            int min = Math.Min(a, b);
+            int max = Math.Max(a, b);
+            Console.WriteLine(min + " " + max);
+
+
             ------------------------------------------------------------------------------------------------------------
             Dordunden en boyuyu
+            string[] st = Console.ReadLine().Split(' ');
+            int a = int.Parse(st[0]);
+            int b = int.Parse(st[1]);
+            int c = int.Parse(st[2]);
+            int d = int.Parse(st[3]);
+            int max = Math.Max(Math.Max(a, b), Math.Max(c, d));
+            Console.WriteLine(max);
+
+
+
             ------------------------------------------------------------------------------------------------------------
             Ders seviyyesi
+
+            int n = int.Parse(Console.ReadLine());
+            if (n == 1 && n == 2 && n == 3) { Console.WriteLine("Initial"); }
+            if (n == 4 && n == 5 && n == 6) { Console.WriteLine("Average"); }
+            if (n == 7 && n == 8 && n == 9) { Console.WriteLine("Sufficient"); }
+            if (n == 10 && n == 11 && n == 12) { Console.WriteLine("High"); }
+
+
             ------------------------------------------------------------------------------------------------------------
             SGN funksiyasi
+            int n = int.Parse(Console.ReadLine());
+            if (n < 0) { Console.WriteLine(-1); }
+            if (n == 0) { Console.WriteLine(0); }
+            if (n > 0) { Console.WriteLine(1); }
+
+
             ------------------------------------------------------------------------------------------------------------
             Su ve buz
+            long n = long.Parse(Console.ReadLine());
+            if (n < 0) { Console.WriteLine("Ice"); }
+            if (n > 0) { Console.WriteLine("Water"); }
+
+
             ------------------------------------------------------------------------------------------------------------
             Intervalin daxilinde - 1
+            string[] st = Console.ReadLine().Split(' ');
+            int a = int.Parse(st[0]);
+            int b = int.Parse(st[1]);
+            int c = int.Parse(st[2]);
+            if (a >= b && a <= c) { Console.WriteLine("YES"); }
+            else { Console.WriteLine("NO"); }
+
             ------------------------------------------------------------------------------------------------------------
-            Intervalin daxilinde-2
+            Intervalin daxilinde - 2
+
+            string[] st1 = Console.ReadLine().Split(' ');
+            int a1 = int.Parse(st1[0]);
+            int b1 = int.Parse(st1[1]);
+            int c1 = int.Parse(st1[2]);
+            if (a1 >= b1 && a1 <= c1) { Console.WriteLine("IN"); }
+            else { Console.WriteLine("OUT"); }
             ------------------------------------------------------------------------------------------------------------
         }
     }
